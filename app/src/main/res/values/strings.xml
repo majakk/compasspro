@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="version">0.2</string>
+    <string name="app_name">Compass Pro</string>
+    <string name="action_wakelock">Wakelock</string>
+    <string name="action_rotation">Adjust Rotation</string>
+    <string name="r0">0º (Default)</string>
+    <string name="r90">90º (eg Tablets)</string>
+    <string name="r180">180º</string>
+    <string name="r270">270º</string>
+</resources>

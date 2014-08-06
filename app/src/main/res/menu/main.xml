@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/action_wakelock"
+        android:title="@string/action_wakelock"
+        android:orderInCategory="99"
+        android:checkable="true"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_rotation"
+        android:title="@string/action_rotation"
+        android:orderInCategory="100"
+        app:showAsAction="never" >
+    <menu >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/r0"
+            android:title="@string/r0"
+            android:checked="true"/>
+        <item android:id="@+id/r90"
+            android:title="@string/r90" />
+        <item android:id="@+id/r180"
+            android:title="@string/r180" />
+        <item android:id="@+id/r270"
+            android:title="@string/r270" />
+    </group>
+    </menu>
+    </item>
+</menu>
